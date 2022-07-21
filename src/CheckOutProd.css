@@ -1,0 +1,35 @@
+.checkoutProd{
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.checkoutProd>img{
+width: 250px;
+height: 250px;
+}
+.checkoutProd_info{
+    padding-left: 20px;
+}
+.chekoutProd_title{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 30px;
+    padding: 2px;
+    border-bottom: 1px solid lightgray;
+}
+.checkoutProd_info>button{
+    background: orange;
+    border: 1px solid;
+    margin-top: 10px;
+    color: black;
+}
+.checkoutProd_info>button:hover{
+    background: black;
+    color: orange;
+}
+.checkoutProd_img{ 
+    object-fit: contain;
+ 
+}
+.checkoutProd_rating{
+    display: flex;
+}

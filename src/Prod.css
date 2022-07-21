@@ -1,0 +1,61 @@
+.prod{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    margin: 0px;
+    padding: 20px;
+    width: 200px;
+    max-height: 300px;
+    min-width: 100px; 
+    background-color: rgb(255, 255, 255);
+    z-index: 1;
+    transition-duration: 0.1s;
+}
+.prod:hover{
+color: rgb(80, 205, 255);
+}   
+.prod>img{
+    
+    display: block;
+    height: 200px;
+    width: 100%;
+    object-fit: contain;
+    margin-bottom: -100px;
+}
+.prod_rating{
+    display: flex;
+}
+.prod>button{
+   background: white;
+   border: 2px solid;
+   margin-top: 10px;
+   border-color:rgb(255, 255, 255);
+   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   font-size: larger;
+   color: black;
+
+   transition-duration: 0.4s;
+}
+.prod>button:hover {
+    background-color: #000000; /* Green */
+    color: white;
+
+}
+.prod_title{
+    font-size: 15px;
+    display: block;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 100%;
+    height: 30px;
+    text-align: center;
+    margin-top: 100px;
+    
+}
+
+.prod_price{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+
+}

@@ -1,0 +1,76 @@
+.home{
+    display: flex;
+    justify-content: center;
+    max-width: 100%;
+    background-color: rgb(0, 0, 0);
+}
+.home_container{
+    background-color: white;
+    align-items: center;
+}
+
+.home_prodsRev{
+    align-items: center;
+    font-family: Georgia;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 30px;
+    
+}
+.home_prodsRev>p{
+    font-size: 18px;
+    font-family:Georgia; 
+    margin: auto;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    }
+   
+
+.home_title>h2{
+    margin-top: -20%;
+    font-size: medium;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+}
+.home_row{
+    display: flex;
+     margin-top: 0px;
+     display: flex;
+     padding: 0px;
+     z-index: 1;
+     margin-left:230px ;
+     margin-right: auto;
+}
+.home_Img{
+    height: 1100px;
+    width:1900;
+    padding: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    mask: black;
+
+    }
+    .home_banner{
+        position: relative;
+        text-align: center;
+        color: white;
+        display: flex;
+        justify-content: center;
+        margin-left: auto;
+        margin-right: auto;
+        width: 1900px;
+       }
+       .cigar_text {
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 200px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
+    .home_divbanner>img{
+        background-color: rgb(28, 28, 28);
+        width: 100%;
+    }

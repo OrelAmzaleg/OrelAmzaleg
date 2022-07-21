@@ -1,0 +1,112 @@
+.home{
+    display: flex;
+    justify-content: center;
+    max-width: 100%;
+    background-color: rgb(0, 0, 0);
+}
+.home_container{
+    background-color: white;
+    align-items: center;
+}
+.home_prodsRev{
+    align-items: center;
+    font-family: Georgia;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 30px;
+    
+}
+.home_prodsRev>p{
+    font-size: 18px;
+    font-family:Georgia; 
+    margin: auto;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    }
+   
+
+.home_title>h2{
+    margin-top: -20%;
+    font-size: medium;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+}
+.home_row{
+    display: flex;
+     margin-top: 0px;
+     display: flex;
+     padding: 0px;
+     z-index: 1;
+     margin-left:230px ;
+     margin-right: auto;
+}
+.home_Img{
+    height: 1100px;
+    width:2700px;
+    padding: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    mask: black;
+
+    }
+    .home_banner{
+        position: relative;
+        text-align: center;
+        color: white;
+        display: flex;
+        justify-content: center;
+        margin-left: auto;
+        margin-right: auto;
+        width: 1900px;
+       }
+       .home_text {
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 70px;
+        position: absolute;
+        top: 33%;
+        left: 30%;
+        letter-spacing: 15px;
+        transform: translate(-50%, -50%);
+      }
+      .home_text2{
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 25px !important;
+        position: absolute;
+        top:250px;
+        left: 3%;
+        letter-spacing: 5px;
+        transform: translate(-5%, -5%);
+      }
+      .home_text3{
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 35px !important;
+        position: absolute;
+        top:80px;
+        left: 10%;
+        letter-spacing: 15px;
+        
+        transform: translate(-5%, -5%);
+      } 
+      .home_loadmore{
+        padding: 10px;
+      }
+    .home_loadmore>button{
+        margin-left: 830px;
+        width:250px;
+        height: 50px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        background-color: white;
+        font-size: 20px;
+        transition-duration: 0.8s;
+    }
+    .home_loadmore>button:hover{
+        background-color: black;
+        color: white;
+        font-size: 20px;
+    }
+    .home_divbanner>img{
+        background-color: rgb(28, 28, 28);
+        width: 100%;
+    }

@@ -1,0 +1,81 @@
+.Signin_logo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    object-fit: contain;
+    background: rgba(1, 3, 22, 0.771);
+    border: 1px solid;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-color:rgba(0, 0, 0, 0.205) 
+}
+.SignIn_details{
+    color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    border: 1px solid lightgrey;
+    padding: 20px;
+}
+.SignIn_details>h1{
+    color: white;
+    margin-right: 140px;
+    margin-bottom: 25px;
+    font-weight:600;
+    }
+.SignIn_details>form>h2{
+    margin-bottom: 5px;
+    }
+.SignIn_details>form>input{
+    height:30px ;
+    margin-bottom: 10px;
+    background-color: white;
+    width: 100%;
+    }
+.SignIn_details>p{
+    margin-top: 15px;
+    font-size: 15px;
+    }
+.Signin_signInButton{
+    font-weight: 500;
+    font-size: 15px;
+    background: rgb(255, 255, 255);
+    border-radius:2px ;
+    width: 104%;
+    height: 30px;
+    border: 1px solid;
+    margin-top: -5px;
+    border-color: rgb(0, 0, 0);
+    transition-duration: 0.5s;
+    }
+    .Signin_signInButton:hover{
+    background-color: black;
+    color: white;
+    }
+.Signin_signUpButton{
+    font-weight: 700;
+    font-size: 15px;
+    background: rgb(248, 255, 248);
+    border-radius:2px ;
+    width: 100%;
+    height: 30px;
+    border: 1px solid;
+    margin-top: 10px;
+    transition-duration: 0.5s;
+    border-color:black
+ 
+    }
+    .Signin_signUpButton:hover{
+        background-color: black;
+        color: white;
+        }
